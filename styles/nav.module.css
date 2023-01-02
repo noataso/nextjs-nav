@@ -1,0 +1,29 @@
+.tab{
+    padding:30px 100px;
+}
+
+.tabNav{
+    display:flex;
+}
+
+.tabNavItem{
+    padding:5px;
+    background-color:#ccc;
+    margin-right:5px;
+    border-radius:5px 5px 0 0;
+}
+
+.tabNavItem:nth-child(1){
+    background-color: blue;
+}
+.tabNavItem:nth-child(2){
+    background-color: green;
+}
+.tabNavItem:nth-child(3){
+    background-color: pink;
+}
+
+.tabContent{
+    padding:10px;
+    border:1px solid #000;
+}
